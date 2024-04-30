@@ -6,12 +6,11 @@ import SendIcon from '@mui/icons-material/Send'
 import { LoadingButton } from "@mui/lab"
 import { Send } from "@mui/icons-material"
 
-// styled 사용
+
 const CustomButton = styled(ButtonBase)(({ theme }) => ({
     position: 'relative',
     height: 120,
 }))
-
 
 
 export const BasicButtons = () => {
